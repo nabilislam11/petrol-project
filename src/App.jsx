@@ -12,6 +12,9 @@ import Service from './components/Service/Service'
 import About from './components/About/About'
 import Logo from './components/Logo/Logo'
 import Blog from './components/Blog/Blog'
+import Map from './components/Map/Map'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
 
 function App() {
@@ -30,6 +33,9 @@ function App() {
     <About></About>
     <Logo></Logo>
     <Blog></Blog>
+    <Map></Map>
+    <Contact></Contact>
+    <Footer></Footer>
     </>
   )
 }
