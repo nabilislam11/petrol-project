@@ -11,6 +11,7 @@ import Slider from './components/Slider/Slider'
 import Service from './components/Service/Service'
 import About from './components/About/About'
 import Logo from './components/Logo/Logo'
+import Blog from './components/Blog/Blog'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
     <Service></Service>
     <About></About>
     <Logo></Logo>
+    <Blog></Blog>
     </>
   )
 }
