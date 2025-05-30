@@ -16,7 +16,7 @@ const Navbar = () => {
                         <div className="w-[50%] ">
                             <ul className='flex justify-end gap-[47px] font-semibold font-primary text-[16px] text-white '> 
                                 <li><a href="">Home</a> </li>
-                                <li><a href="">About</a> </li>
+                                <li><a href="#about">About</a> </li>
                                 <li><a href="">Services</a> </li>
                                 <li><a href="">Gallery</a> </li>
                                 <li><a href="">Blog</a> </li>

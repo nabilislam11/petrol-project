@@ -3,8 +3,9 @@ import maps from '../../assets/maps.png'
 
 function Map() {
   return (
-    <div className="  ju ">
-        <img  src={maps} alt="" />
+    <div className="  ">
+      <img className='w-full ' src= {maps} alt="" />
+
     </div>
   )
 }

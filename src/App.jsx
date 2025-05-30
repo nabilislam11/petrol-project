@@ -17,6 +17,8 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 
 
+
+
 function App() {
 
 
@@ -36,6 +38,7 @@ function App() {
     <Map></Map>
     <Contact></Contact>
     <Footer></Footer>
+   
     </>
   )
 }

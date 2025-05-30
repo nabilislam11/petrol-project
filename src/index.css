@@ -10,3 +10,7 @@
 @theme {
   --font-primary :"Poppins", sans-serif;
 }
+
+html, body{
+scroll-behavior: smooth;
+}
