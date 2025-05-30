@@ -4,14 +4,16 @@ import Container from '../layout/Container'
 const Contact = () => {
   return (
     <>
-    <div className="bg-[#F40404] py-[46px] ">
+    <div className="bg-[#F40404] py-[46px]  border-b-4 border-[#FFB800] ">
         <Container>
-            <div className=" flex justify-between">
+            <div className=" flex justify-between ">
                 <h1 className='font-bold   font-primary text-[36px] text-white '>Want to join as member branch in your area?</h1>
-                <button className='py-[13px] px-[32px] text-white bg-transparent '>CONTACT</button>
+                <button className='py-[13px] px-[32px] text-white bg-transparent  border border-white'>CONTACT</button>
             </div>
         </Container>
     </div>
+
+
     </>
   )
 }

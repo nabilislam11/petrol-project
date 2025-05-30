@@ -4,7 +4,7 @@ import Container from '../layout/Container'
 const About = () => {
   return (
     <>
-      <div id='about'>
+      <div id='about ' className='bg-[#F0F0F0] '>
         <Container>
           <div className=" flex py-[136px]">
             <div className="w-[30%]  bg-[#F40404] py-[100px] pl-[74px] ">
