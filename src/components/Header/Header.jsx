@@ -20,7 +20,7 @@ const Header = () => {
             <Container>
               <div className=" lg:flex lg:justify-between pt-[15px] pb-[11px]">
                        <div className=" flex gap-1 pb-1.5   lg:flex lg:flex-row lg:items-center  lg:gap-x-[22px] lg:pl-[0px] lg:pb-0 ">
-          <div className=" flex pb-[5px] lg:flex items-center gap-[5px] lg:pb-0 ">
+          <div className=" flex pb-[5px] gap-[3px] lg:flex items-center lg:gap-[5px] lg:pb-0 ">
             <a className=' text-white  ' href=""><MdOutlineMarkEmailUnread /></a>
             <h2 className='text-[11px] text-white font-reguler font-primary lg:text-[12px]'>mail@yourcompany.com</h2>
 
