@@ -8,7 +8,7 @@ import slider4 from '../../assets/slider4.png'
 
 const Slider = () => {
   return (
-    <><div className="flex justify-center gap-[30px] overflow-hidden ">
+    <><div className=" md:flex justify-center gap-[30px] overflow-hidden ">
         <img src={slider1} alt="" />
         <img src={slider2} alt="" />
         <img src={slider3} alt="" />

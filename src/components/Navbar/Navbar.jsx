@@ -28,8 +28,8 @@ const Navbar = () => {
                         </div>
 
                         {show && (
-                            <>      <div className="flex w-[50%] ">
-                                <ul className='  md:flex justify-end gap-[47px] font-semibold font-primary text-[16px] text-white '>
+                            <>      <div className=" flex md:w-[50%] ">
+                                <ul className='  md:flex justify-end gap-[47px]  font-semibold font-primary text-[16px] text-white '>
                                     <li className='pt-1' ><a   href="">Home</a> </li>
                                     <li className='pt-1'><a href="#about">About</a> </li>
                                     <li className='pt-1'><a href="">Services</a> </li>
