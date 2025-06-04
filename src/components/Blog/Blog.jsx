@@ -26,7 +26,7 @@ const Blog = () => {
 
             </div>
 
-            <div className="flex items-center justify-end  pt-[29px] ">
+            <div className="flex items-center  justify-center md:justify-end  pt-[29px] ">
               <p className='font-bold font-primary text-[16px] text-black  pl-[1px]'>MORE FROM THE BLLOG</p>
               <MdKeyboardArrowRight />
 
