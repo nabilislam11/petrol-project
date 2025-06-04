@@ -6,8 +6,8 @@ const About = () => {
     <>
       <div id='about ' className='bg-[#F0F0F0] '>
         <Container>
-          <div className=" flex py-[136px]">
-            <div className="w-[30%]  bg-[#F40404] py-[100px] pl-[74px] ">
+          <div className="  md:flex py-[60px] md:py-[136px]">
+            <div className=" md:w-[30%]  bg-[#F40404] py-[65px] md:py-[100px]  pl-[60px] md:pl-[74px] ">
               <h1 className='font-bold font-primary text-[36px] text-white'>Learn more about our company</h1>
             </div>
             <div className="w-[70%] bg-[url(assets/about.png)] bg-cover bg-center bg-no-repeat pt-[182px] pb-[55px] text-center  ">

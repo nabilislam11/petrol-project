@@ -7,7 +7,6 @@ import Container from './components/layout/Container'
 import Navbar from './components/Navbar/Navbar'
 import Banner from './components/Banner/Banner'
 import Welcome from './components/Welcome/Welcome'
-import Slider from './components/Slider/Slider'
 import Service from './components/Service/Service'
 import About from './components/About/About'
 import Logo from './components/Logo/Logo'
@@ -15,6 +14,7 @@ import Blog from './components/Blog/Blog'
 import Map from './components/Map/Map'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
+import Sliderimg from './components/Slider/Sliderimg'
 
 
 
@@ -30,7 +30,7 @@ function App() {
     <Navbar></Navbar>
     <Banner></Banner>
     <Welcome></Welcome>
-    <Slider></Slider>
+    <Sliderimg></Sliderimg>
     <Service></Service>
     <About></About>
     <Logo></Logo>
