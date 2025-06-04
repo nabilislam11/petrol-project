@@ -18,12 +18,12 @@ import certificate2 from '../../assets/certificate2.png'
 const Footer = () => {
   return (
 <>
-    <div className='flex bg-black pt-[148px] pb-[170px] '>
+    <div className=' flex bg-black pt-[44px] md:pt-[148px] pb-[40px] md:pb-[170px] '>
       <Container>
-        <div className="flex justify-between  ">
-          <div className="w-[30%] ">
+        <div className=" md:flex justify-between   ">
+          <div className=" md:w-[30%] flex flex-col items-center md:items-start">
             <img className='pb-[33px] ' src={footer} alt="" />
-            <div className="flex items-center pb-[15px] ">
+            <div className="flex items-center pb-[15px]  ">
               <a className=' text-white  mr-[5px] ' href=""><MdOutlineMarkEmailUnread /></a>
               <h2 className='text-white  font-reguler    font-primary text-[14px]'>mail@yourcompany.com</h2>
             </div>
@@ -64,27 +64,27 @@ const Footer = () => {
             </div>
 
           </div>
-          <div className="w-[60%] ">
-            <div className=" flex text-white  justify-between">
-              <div className="w-[20%]  ">
+          <div className=" md:w-[60%] ">
+            <div className=" md:flex md:flex-row justify-between text-white  flex flex-col  items-center md:items-start text-center md:text-start ">
+              <div className="w-[50%] md:w-[20%] ">
                 <ul className='  '> 
-                  <li className='font-bold font-primary text-[16px] text-white pb-[21px]'>Company</li>
-                  <li className='font-reguler font-primary text-[14px] text-white pb-[15px] ' >Home</li>
-                  <li className='font-reguler font-primary text-[14px] text-white pb-[15px]' >About</li>
-                  <li className='font-reguler font-primary text-[14px] text-white pb-[15px]'>'Company'</li>
-                  <li className='font-reguler font-primary text-[14px] text-white pb-[15px]'>Gallery</li>
+                  <li className='font-bold font-primary text-[16px] text-white pb-[10px] md:pb-[21px]'>Company</li>
+                  <li className='font-reguler font-primary text-[14px] text-white pb-[7px] md:pb-[15px] ' >Home</li>
+                  <li className='font-reguler font-primary text-[14px] text-white pb-[7px] md:pb-[15px]' >About</li>
+                  <li className='font-reguler font-primary text-[14px] text-white pb-[7px] md:pb-[15px]'>'Company'</li>
+                  <li className='font-reguler font-primary text-[14px] text-white pb-[7px] md:pb-[15px]'>Gallery</li>
                   </ul>
               </div>
-              <div className="w-[20%] ">
+              <div className=" w-[50%] md:w-[20%]">
                    <ul className='  '> 
-                  <li className='font-bold font-primary text-[16px] text-white pb-[21px]'>Others</li>
-                  <li className='font-reguler font-primary text-[14px] text-white pb-[15px] ' >Blog</li>
-                  <li className='font-reguler font-primary text-[14px] text-white pb-[15px]' >Contact</li>
-                  <li className='font-reguler font-primary text-[14px] text-white pb-[15px]'>'Terms & Conditions'</li>
-                  <li className='font-reguler font-primary text-[14px] text-white pb-[15px]'>Privacy Policy</li>
+                  <li className='font-bold font-primary text-[16px] text-white pb-[10px] md:pb-[21px]'>Others</li>
+                  <li className='font-reguler font-primary text-[14px] text-white pb-[7px] md:pb-[15px] ' >Blog</li>
+                  <li className='font-reguler font-primary text-[14px] text-white pb-[7px] md:pb-[15px]' >Contact</li>
+                  <li className='font-reguler font-primary text-[14px] text-white pb-[7px] md:pb-[15px]'>'Terms & Conditions'</li>
+                  <li className='font-reguler font-primary text-[14px] text-white pb-[7px] md:pb-[15px]'>Privacy Policy</li>
                   </ul>
               </div>
-              <div className="w-[30%] ">
+              <div className=" md:w-[30%] pt-[10px] md:pt-0 ">
                 <p className='font-bold font-primary text-[16px] text-white pb-[21px]'>Certificate</p>
                 <div className="flex gap-[5px] ">
                   <img src={certificate1} alt="" />

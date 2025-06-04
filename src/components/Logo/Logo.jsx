@@ -9,7 +9,7 @@ const Logo = () => {
   return (
 <>
 <Container>
-    <div className="flex  gap-[26px] py-[116px] ">
+    <div className=" md:flex  gap-[26px]  py-[45px] md:py-[116px] ">
         <img src={logo1} alt="" />
         <img src={logo2} alt="" />
         <img src={logo3} alt="" />
