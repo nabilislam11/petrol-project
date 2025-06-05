@@ -55,7 +55,7 @@ const Sliderimg = () => {
 
   return (
 
-    <div className="slider-container ">
+    <div className="slider-container w-full  ">
       <Slider {...settings}>
         <div  >
           <img src={slider1} alt="" />

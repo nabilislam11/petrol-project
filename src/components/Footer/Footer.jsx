@@ -65,7 +65,7 @@ const Footer = () => {
 
           </div>
           <div className=" md:w-[60%] ">
-            <div className=" md:flex md:flex-row justify-between text-white flex flex-col items-center md:items-start text-center md:text-start">
+            <div className=" flex flex-wrap justify-center md:justify-between text-white items-center  text-center md:items-start  md:text-start mt-[25px] md:mt-0 ">
               <div className="w-[50%] md:w-[20%] ">
                 <ul className='  '> 
                   <li className='font-bold font-primary text-[16px] text-white pb-[10px] md:pb-[21px]'>Company</li>
@@ -84,9 +84,9 @@ const Footer = () => {
                   <li className='font-reguler font-primary text-[14px] text-white pb-[7px] md:pb-[15px]'>Privacy Policy</li>
                   </ul>
               </div>
-              <div className="md:w-[30%] pt-[10px] md:pt-0">
+              <div className="md:w-[30%] pt-[10px] md:pt-0 text-center md:text-start ">
                 <p className='font-bold font-primary text-[16px] text-white pb-[21px]'>Certificate</p>
-                <div className="flex gap-[5px]">
+                <div className="flex gap-[5px] ">
                   <img src={certificate1} alt="" />
                   <img src={certificate2} alt="" />
                 </div>
