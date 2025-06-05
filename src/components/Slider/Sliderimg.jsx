@@ -8,8 +8,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-
-
 const Sliderimg = () => {
 
   var settings = {
@@ -39,7 +37,7 @@ const Sliderimg = () => {
           slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 2,
-           autoplay: true,
+          autoplay: true,
           speed: 500,
           autoplaySpeed: 500,
           cssEase: "linear",
@@ -57,7 +55,7 @@ const Sliderimg = () => {
 
   return (
 
-    <div className="slider-container  ">
+    <div className="slider-container ">
       <Slider {...settings}>
         <div  >
           <img src={slider1} alt="" />
